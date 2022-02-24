@@ -1,7 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(nt) {
+document.addEventListener("DOMContentLoaded", function() {
         console.log("The DOM has loaded");
         debugger;
-           document.body.innerHTML = " This is really cool!";
-            
+        let nt = document.getElementById('text')
+           nt.textContent = "This is really cool!"
   });
+
+
 
